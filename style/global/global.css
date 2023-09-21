@@ -1,0 +1,38 @@
+body {
+    background-color: var(--color-1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.qr-container {
+    max-width: 320px;
+    margin: 86px auto;
+    background-color: var(--color-0);
+    border-radius: 15px;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 18px;
+}
+
+.qr-items {
+    max-width: 284px;
+    margin: auto;
+    padding-bottom: 18px;
+}
+
+.qr-items h1,
+.qr-items p {
+    margin-top: 24px;
+    text-align: center;
+}
+
+@media (min-width:1440px) {
+    .qr-container {
+        margin: 153px auto;
+    }
+}
